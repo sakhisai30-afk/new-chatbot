@@ -1,0 +1,222 @@
+{
+  "schema_version": 1,
+  "source": "https://zuigo.ai/services/cloud-devops",
+  "fetched_at": "2026-10-12T07:14:58.650729+00:00",
+  "source_sha256": "8219e626aee7df31852a499f3e3455a230a6593ba19728abd97015c11bfde63e",
+  "records": [
+    {
+      "kind": "service",
+      "id": "cloud-devops",
+      "label": "Cloud & DevOps",
+      "name": "Cloud & DevOps Solutions",
+      "page_title": "Cloud & DevOps Solutions Services | ZuiGO",
+      "introduction": "Cloud infrastructure, CI/CD pipelines, and DevOps practices that accelerate your engineering teams.\n\nWe help organizations modernize their infrastructure with cloud-native architectures, automated deployment pipelines, and robust monitoring systems. From AWS and Azure to GCP, our DevOps engineers ensure your applications are reliable, scalable, and secure in production.",
+      "source": "https://zuigo.ai/services/cloud-devops",
+      "topics": {
+        "Solutions": "Why choose ZuiGO for Cloud & DevOps?\nZuiGO's cloud & devops engagements are built around these outcomes:\n- Cloud migration & modernization\n- Automated CI/CD pipelines\n- Infrastructure as Code (IaC)\n- Containerization & orchestration\n- 24/7 monitoring & incident response\n\nWhat's included in a ZuiGO Cloud & DevOps engagement?\nEvery ZuiGO cloud & devops project ships with:\n- Cloud migration & landing-zone setup\n- CI/CD pipelines & release automation\n- Infrastructure as Code (Terraform) modules\n- Observability, alerting & incident runbooks",
+        "How We Deliver": "How does ZuiGO deliver Cloud & DevOps?\nZuiGO delivers cloud & devops in 5 stages, from discovery through deployment:\nInfrastructure Assessment\nEvaluate current infrastructure, identify bottlenecks, and map migration paths.\nArchitecture Design\nDesign cloud-native architectures optimized for cost, performance, and resilience.\nImplementation & Migration\nHands-on migration, infrastructure provisioning, and environment setup.\nAutomation & CI/CD\nBuild automated deployment pipelines and configuration management systems.\nMonitoring & Management\nImplement observability, alerting, and incident response protocols.",
+        "Technologies": "Which technologies does ZuiGO use for Cloud & DevOps?\nZuiGO builds cloud & devops on the stack below. We choose technologies per project, so this is a representative set rather than a fixed requirement.\n- AWS\n- Azure\n- GCP\n- Terraform\n- Docker\n- Kubernetes\n- GitHub Actions\n- Grafana / Prometheus",
+        "Projects": "What Cloud & DevOps projects does ZuiGO build?\nThese are representative cloud & devops projects ZuiGO builds — illustrative of typical scope and approach, not a client list.\nCloud migration\nMoving workloads to a cloud-native landing zone with cost, security, and resilience baked in.\nCI/CD automation\nPipelines that take code from PR to production in minutes with automated tests and safe rollbacks.\nObservability rollout\nMetrics, logs, and traces with actionable alerting and on-call runbooks for faster recovery."
+      },
+      "sections": [
+        {
+          "heading": "Why choose ZuiGO for Cloud & DevOps?",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "ZuiGO's cloud & devops engagements are built around these outcomes:"
+            },
+            {
+              "type": "list_item",
+              "text": "Cloud migration & modernization"
+            },
+            {
+              "type": "list_item",
+              "text": "Automated CI/CD pipelines"
+            },
+            {
+              "type": "list_item",
+              "text": "Infrastructure as Code (IaC)"
+            },
+            {
+              "type": "list_item",
+              "text": "Containerization & orchestration"
+            },
+            {
+              "type": "list_item",
+              "text": "24/7 monitoring & incident response"
+            }
+          ]
+        },
+        {
+          "heading": "How does ZuiGO deliver Cloud & DevOps?",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "ZuiGO delivers cloud & devops in 5 stages, from discovery through deployment:"
+            },
+            {
+              "type": "subheading",
+              "text": "Infrastructure Assessment"
+            },
+            {
+              "type": "paragraph",
+              "text": "Evaluate current infrastructure, identify bottlenecks, and map migration paths."
+            },
+            {
+              "type": "subheading",
+              "text": "Architecture Design"
+            },
+            {
+              "type": "paragraph",
+              "text": "Design cloud-native architectures optimized for cost, performance, and resilience."
+            },
+            {
+              "type": "subheading",
+              "text": "Implementation & Migration"
+            },
+            {
+              "type": "paragraph",
+              "text": "Hands-on migration, infrastructure provisioning, and environment setup."
+            },
+            {
+              "type": "subheading",
+              "text": "Automation & CI/CD"
+            },
+            {
+              "type": "paragraph",
+              "text": "Build automated deployment pipelines and configuration management systems."
+            },
+            {
+              "type": "subheading",
+              "text": "Monitoring & Management"
+            },
+            {
+              "type": "paragraph",
+              "text": "Implement observability, alerting, and incident response protocols."
+            }
+          ]
+        },
+        {
+          "heading": "What's included in a ZuiGO Cloud & DevOps engagement?",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Every ZuiGO cloud & devops project ships with:"
+            },
+            {
+              "type": "list_item",
+              "text": "Cloud migration & landing-zone setup"
+            },
+            {
+              "type": "list_item",
+              "text": "CI/CD pipelines & release automation"
+            },
+            {
+              "type": "list_item",
+              "text": "Infrastructure as Code (Terraform) modules"
+            },
+            {
+              "type": "list_item",
+              "text": "Observability, alerting & incident runbooks"
+            }
+          ]
+        },
+        {
+          "heading": "Which technologies does ZuiGO use for Cloud & DevOps?",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "ZuiGO builds cloud & devops on the stack below. We choose technologies per project, so this is a representative set rather than a fixed requirement."
+            },
+            {
+              "type": "list_item",
+              "text": "AWS"
+            },
+            {
+              "type": "list_item",
+              "text": "Azure"
+            },
+            {
+              "type": "list_item",
+              "text": "GCP"
+            },
+            {
+              "type": "list_item",
+              "text": "Terraform"
+            },
+            {
+              "type": "list_item",
+              "text": "Docker"
+            },
+            {
+              "type": "list_item",
+              "text": "Kubernetes"
+            },
+            {
+              "type": "list_item",
+              "text": "GitHub Actions"
+            },
+            {
+              "type": "list_item",
+              "text": "Grafana / Prometheus"
+            }
+          ]
+        },
+        {
+          "heading": "What Cloud & DevOps projects does ZuiGO build?",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "These are representative cloud & devops projects ZuiGO builds — illustrative of typical scope and approach, not a client list."
+            },
+            {
+              "type": "subheading",
+              "text": "Cloud migration"
+            },
+            {
+              "type": "paragraph",
+              "text": "Moving workloads to a cloud-native landing zone with cost, security, and resilience baked in."
+            },
+            {
+              "type": "subheading",
+              "text": "CI/CD automation"
+            },
+            {
+              "type": "paragraph",
+              "text": "Pipelines that take code from PR to production in minutes with automated tests and safe rollbacks."
+            },
+            {
+              "type": "subheading",
+              "text": "Observability rollout"
+            },
+            {
+              "type": "paragraph",
+              "text": "Metrics, logs, and traces with actionable alerting and on-call runbooks for faster recovery."
+            }
+          ]
+        },
+        {
+          "heading": "Start with what your deploys cost you now",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Tell us how long a release takes, how often one goes wrong, and what your cloud bill looks like. Those three numbers are usually enough to say where the work is."
+            },
+            {
+              "type": "link",
+              "text": "Book a Call",
+              "href": "/book"
+            },
+            {
+              "type": "link",
+              "text": "Send a Message",
+              "href": "/contact"
+            }
+          ]
+        }
+      ],
+      "content_sha256": "a1ac6065da60f919790f1ca4330a5dc727ef4748b8eda104543c412557d8b513"
+    }
+  ]
+}

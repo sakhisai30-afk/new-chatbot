@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "source": "https://zuigo.ai/about",
+  "fetched_at": "2026-10-12T07:14:58.729040+00:00",
+  "source_sha256": "652603c55fd022af600e42b5644df769cd9a809e1fd4f3b90be338d9e1291aa1",
+  "records": [
+    {
+      "kind": "page",
+      "id": "about",
+      "label": "About ZuiGO",
+      "name": "We Solve Problems by Building Great Software",
+      "page_title": "About | ZuiGO",
+      "introduction": "Founded by Dr. Manisha Thakkar, ZuiGO is a software solutions company built on deep AI expertise, years of industry experience, and a relentless focus on quality.",
+      "source": "https://zuigo.ai/about",
+      "topics": {
+        "Our Founder": "ZuiGO was founded by Dr. Manisha Thakkar, who holds a PhD in Artificial Intelligence and Machine Learning. She has published multiple research papers at top-tier AI conferences and brings over 10 years of industry experience building software products across domains.\nZuiGO is a software solutions company. Our goal is simple: solve real problems by building great software. We don't believe in flashy promises. We believe in clean architecture, reliable systems, and software that actually works for the people who use it.\nWhether it's a healthcare platform, an AI-powered analytics engine, or a modern SaaS product, we bring the same engineering rigor, testing discipline, and operational care to every system we take on.",
+        "Our Values": "Tested, Typed, Locked Down\nAutomated tests, TypeScript end to end, a strict content-security policy, and sanitised input on every write path — on our own site as much as on yours.\nWorking Software Every Two Weeks\nYou see the build running at the end of every sprint, not a status report about it. If a direction is wrong, you find out in a fortnight rather than at handover.\nInnovation-Driven\nWe track what is actually new in AI and infrastructure, and adopt it when it makes a system simpler, faster, or safer to run.\nCollaborative\nYou work with the engineers building your system — shared backlogs, regular demos, and no account layer in between."
+      },
+      "sections": [
+        {
+          "heading": "Our Founder",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "ZuiGO was founded by Dr. Manisha Thakkar, who holds a PhD in Artificial Intelligence and Machine Learning. She has published multiple research papers at top-tier AI conferences and brings over 10 years of industry experience building software products across domains."
+            },
+            {
+              "type": "paragraph",
+              "text": "ZuiGO is a software solutions company. Our goal is simple: solve real problems by building great software. We don't believe in flashy promises. We believe in clean architecture, reliable systems, and software that actually works for the people who use it."
+            },
+            {
+              "type": "paragraph",
+              "text": "Whether it's a healthcare platform, an AI-powered analytics engine, or a modern SaaS product, we bring the same engineering rigor, testing discipline, and operational care to every system we take on."
+            }
+          ]
+        },
+        {
+          "heading": "Our Values",
+          "content": [
+            {
+              "type": "subheading",
+              "text": "Tested, Typed, Locked Down"
+            },
+            {
+              "type": "paragraph",
+              "text": "Automated tests, TypeScript end to end, a strict content-security policy, and sanitised input on every write path — on our own site as much as on yours."
+            },
+            {
+              "type": "subheading",
+              "text": "Working Software Every Two Weeks"
+            },
+            {
+              "type": "paragraph",
+              "text": "You see the build running at the end of every sprint, not a status report about it. If a direction is wrong, you find out in a fortnight rather than at handover."
+            },
+            {
+              "type": "subheading",
+              "text": "Innovation-Driven"
+            },
+            {
+              "type": "paragraph",
+              "text": "We track what is actually new in AI and infrastructure, and adopt it when it makes a system simpler, faster, or safer to run."
+            },
+            {
+              "type": "subheading",
+              "text": "Collaborative"
+            },
+            {
+              "type": "paragraph",
+              "text": "You work with the engineers building your system — shared backlogs, regular demos, and no account layer in between."
+            }
+          ]
+        }
+      ],
+      "content_sha256": "c7a0d59a573639a4526e8fb233300d494c7c85a20277c3ea121ec1902ff83073"
+    }
+  ]
+}

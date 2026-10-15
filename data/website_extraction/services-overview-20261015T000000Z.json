@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "source": "https://zuigo.ai/services",
+  "fetched_at": "2026-10-15T00:00:00+00:00",
+  "records": [
+    {
+      "kind": "project_fact",
+      "id": "services-overview",
+      "label": "ZuiGO services overview",
+      "name": "ZuiGO services overview",
+      "page_title": "Which services does ZuiGO offer? List of all services",
+      "introduction": "ZuiGO offers 5 service lines: 1) Custom Software Development, 2) AI & Machine Learning, 3) Cloud & DevOps, 4) Healthcare Software, 5) Fintech Software. After a build, ZuiGO can also run launch and growth support (technical SEO, paid acquisition, landing pages, attribution); it follows a build and is not a standalone engagement. Every engagement runs through five phases: Discover, Design, Build, Deploy, Scale.",
+      "source": "https://zuigo.ai/services",
+      "provenance": "Compiled from the zuigo.ai Home, Services and individual service-page snapshots; not a separate page on the website.",
+      "sections": []
+    }
+  ]
+}

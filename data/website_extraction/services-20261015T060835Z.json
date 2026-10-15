@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "source": "https://zuigo.ai/services",
+  "fetched_at": "2026-10-15T06:08:35.245950+00:00",
+  "source_sha256": "44604280b6d0bf5d4dabc0505f81aee9240e18f6463555c2bcc557d86c701c70",
+  "records": [
+    {
+      "kind": "page",
+      "id": "services",
+      "label": "Services",
+      "name": "How an Engagement Runs",
+      "page_title": "Software Development Services & How We Build | ZuiGO",
+      "introduction": "Five phases from first call to running at scale. Each one has defined inputs, an owner, and an output you can review before the next begins.",
+      "source": "https://zuigo.ai/services",
+      "topics": {
+        "What services does ZuiGO offer?": "ZuiGO delivers 5 service lines across the full software lifecycle. Each runs through the five-phase process below.",
+        "Launch and growth support": "After the build\nOnce something ships, we can run the launch funnel for it too — technical SEO, paid acquisition, landing pages, and attribution wired to the product we just built. It follows a build; it is not a standalone engagement.\n- Technical SEO for the product we built\n- Paid search and social campaign setup\n- Landing pages and conversion tracking\n- Attribution dashboards and reporting",
+        "Five phases from first call to running at scale.": "01 — 05 Process\nEach one has defined inputs, an owner, and an output you can review before the next begins.\n- 01 Discover\n01 Discover\n- 02 Design\n02 Design\n- 03 Build\n03 Build\n- 04 Deploy\n04 Deploy\n- 05 Scale\n05 Scale",
+        "Bring us the system you're running.": "Tell us what it does, who depends on it, and what you can't safely change. We'll scope the work and tell you what it takes.\nBook a Call"
+      },
+      "sections": [
+        {
+          "heading": "What services does ZuiGO offer?",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "ZuiGO delivers 5 service lines across the full software lifecycle. Each runs through the five-phase process below."
+            }
+          ]
+        },
+        {
+          "heading": "Launch and growth support",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "After the build"
+            },
+            {
+              "type": "paragraph",
+              "text": "Once something ships, we can run the launch funnel for it too — technical SEO, paid acquisition, landing pages, and attribution wired to the product we just built. It follows a build; it is not a standalone engagement."
+            },
+            {
+              "type": "list_item",
+              "text": "Technical SEO for the product we built"
+            },
+            {
+              "type": "list_item",
+              "text": "Paid search and social campaign setup"
+            },
+            {
+              "type": "list_item",
+              "text": "Landing pages and conversion tracking"
+            },
+            {
+              "type": "list_item",
+              "text": "Attribution dashboards and reporting"
+            }
+          ]
+        },
+        {
+          "heading": "Five phases from first call to running at scale.",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "01 — 05 Process"
+            },
+            {
+              "type": "paragraph",
+              "text": "Each one has defined inputs, an owner, and an output you can review before the next begins."
+            },
+            {
+              "type": "list_item",
+              "text": "01 Discover"
+            },
+            {
+              "type": "link",
+              "text": "01 Discover",
+              "href": "https://zuigo.ai/services#phase-discover"
+            },
+            {
+              "type": "list_item",
+              "text": "02 Design"
+            },
+            {
+              "type": "link",
+              "text": "02 Design",
+              "href": "https://zuigo.ai/services#phase-design"
+            },
+            {
+              "type": "list_item",
+              "text": "03 Build"
+            },
+            {
+              "type": "link",
+              "text": "03 Build",
+              "href": "https://zuigo.ai/services#phase-build"
+            },
+            {
+              "type": "list_item",
+              "text": "04 Deploy"
+            },
+            {
+              "type": "link",
+              "text": "04 Deploy",
+              "href": "https://zuigo.ai/services#phase-deploy"
+            },
+            {
+              "type": "list_item",
+              "text": "05 Scale"
+            },
+            {
+              "type": "link",
+              "text": "05 Scale",
+              "href": "https://zuigo.ai/services#phase-scale"
+            }
+          ]
+        },
+        {
+          "heading": "Bring us the system you're running.",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Tell us what it does, who depends on it, and what you can't safely change. We'll scope the work and tell you what it takes."
+            },
+            {
+              "type": "link",
+              "text": "Book a Call",
+              "href": "https://zuigo.ai/book"
+            }
+          ]
+        }
+      ],
+      "content_sha256": "c66a461219b54d05e28512d72c141fda9b4436b8af6f769b4213008e70291fc9"
+    }
+  ]
+}

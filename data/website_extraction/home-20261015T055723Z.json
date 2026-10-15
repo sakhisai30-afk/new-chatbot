@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "source": "https://zuigo.ai/",
+  "fetched_at": "2026-10-15T05:57:23.291119+00:00",
+  "source_sha256": "42df31f1d18cffe9f30f708e68ecacc2d49da2f5ebc322ac98aee4f317acdec0",
+  "records": [
+    {
+      "kind": "page",
+      "id": "home",
+      "label": "Home",
+      "name": "Custom software for every kind of business.",
+      "page_title": "ZuiGO Private Limited | AI & Custom Software Development Company",
+      "introduction": "ZuiGO is a software services company. We design, build, and run the software your business depends on: web and mobile apps, internal tools, AI, cloud, and the systems nobody left can safely change. Typed, tested, and shipped in weeks, not quarters.\n\nNot ready to book? Send us a message and we'll reply within 24 hours.\n\nNow · Build\n\nShipping working software every sprint\n\nYou get: Working software in a staging environment, demoed every sprint",
+      "source": "https://zuigo.ai/",
+      "topics": {
+        "Why teams work with ZuiGO": "- PhD AI & ML Founder-led, with published research at top-tier AI conferences\nPhD AI & ML\nFounder-led, with published research at top-tier AI conferences\n- QR Verifiable ID cards Every ZuiGO ID card can be checked live against this site See for yourself\nQR Verifiable ID cards Every ZuiGO ID card can be checked live against this site See for yourself\nQR Verifiable ID cards\nEvery ZuiGO ID card can be checked live against this site\n- 5 Practice areas Custom software, AI, cloud, healthcare, and fintech, for any industry See for yourself\n5 Practice areas Custom software, AI, cloud, healthcare, and fintech, for any industry See for yourself\n5 Practice areas\nCustom software, AI, cloud, healthcare, and fintech, for any industry",
+        "Whatever your business runs on, we build it.": "What we build\nWe work with companies of every size and sector. These are the areas we go deepest in, not the limits of what we take on.",
+        "From first call to production, and beyond.": "01 — 05 How we work\nFive phases. Each one has an owner, a defined end, and something concrete handed over before the next begins.\n- 01 Discover\n01 Discover\n- 02 Design\n02 Design\n- 03 Build\n03 Build\n- 04 Deploy\n04 Deploy\n- 05 Scale\n05 Scale\nSee how we build",
+        "Startup programs we build on": "Application-based programs that provide cloud credits and early access to tooling. They say what we build on, not who vouches for us.",
+        "Ready to Scope Your Build?": "Tell us what you need built. Whatever your industry, whether it's a customer app, an internal tool, an AI system, or cloud infrastructure, we'll scope it with you and tell you what it takes.\nBook a Call\nExplore Services"
+      },
+      "sections": [
+        {
+          "heading": "Why teams work with ZuiGO",
+          "content": [
+            {
+              "type": "list_item",
+              "text": "PhD AI & ML Founder-led, with published research at top-tier AI conferences"
+            },
+            {
+              "type": "paragraph",
+              "text": "PhD AI & ML"
+            },
+            {
+              "type": "paragraph",
+              "text": "Founder-led, with published research at top-tier AI conferences"
+            },
+            {
+              "type": "list_item",
+              "text": "QR Verifiable ID cards Every ZuiGO ID card can be checked live against this site See for yourself"
+            },
+            {
+              "type": "link",
+              "text": "QR Verifiable ID cards Every ZuiGO ID card can be checked live against this site See for yourself",
+              "href": "/about#verify"
+            },
+            {
+              "type": "paragraph",
+              "text": "QR Verifiable ID cards"
+            },
+            {
+              "type": "paragraph",
+              "text": "Every ZuiGO ID card can be checked live against this site"
+            },
+            {
+              "type": "list_item",
+              "text": "5 Practice areas Custom software, AI, cloud, healthcare, and fintech, for any industry See for yourself"
+            },
+            {
+              "type": "link",
+              "text": "5 Practice areas Custom software, AI, cloud, healthcare, and fintech, for any industry See for yourself",
+              "href": "/services"
+            },
+            {
+              "type": "paragraph",
+              "text": "5 Practice areas"
+            },
+            {
+              "type": "paragraph",
+              "text": "Custom software, AI, cloud, healthcare, and fintech, for any industry"
+            }
+          ]
+        },
+        {
+          "heading": "Whatever your business runs on, we build it.",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "What we build"
+            },
+            {
+              "type": "paragraph",
+              "text": "We work with companies of every size and sector. These are the areas we go deepest in, not the limits of what we take on."
+            }
+          ]
+        },
+        {
+          "heading": "From first call to production, and beyond.",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "01 — 05 How we work"
+            },
+            {
+              "type": "paragraph",
+              "text": "Five phases. Each one has an owner, a defined end, and something concrete handed over before the next begins."
+            },
+            {
+              "type": "list_item",
+              "text": "01 Discover"
+            },
+            {
+              "type": "link",
+              "text": "01 Discover",
+              "href": "/services#phase-discover"
+            },
+            {
+              "type": "list_item",
+              "text": "02 Design"
+            },
+            {
+              "type": "link",
+              "text": "02 Design",
+              "href": "/services#phase-design"
+            },
+            {
+              "type": "list_item",
+              "text": "03 Build"
+            },
+            {
+              "type": "link",
+              "text": "03 Build",
+              "href": "/services#phase-build"
+            },
+            {
+              "type": "list_item",
+              "text": "04 Deploy"
+            },
+            {
+              "type": "link",
+              "text": "04 Deploy",
+              "href": "/services#phase-deploy"
+            },
+            {
+              "type": "list_item",
+              "text": "05 Scale"
+            },
+            {
+              "type": "link",
+              "text": "05 Scale",
+              "href": "/services#phase-scale"
+            },
+            {
+              "type": "link",
+              "text": "See how we build",
+              "href": "/services"
+            }
+          ]
+        },
+        {
+          "heading": "Startup programs we build on",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Application-based programs that provide cloud credits and early access to tooling. They say what we build on, not who vouches for us."
+            }
+          ]
+        },
+        {
+          "heading": "Ready to Scope Your Build?",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Tell us what you need built. Whatever your industry, whether it's a customer app, an internal tool, an AI system, or cloud infrastructure, we'll scope it with you and tell you what it takes."
+            },
+            {
+              "type": "link",
+              "text": "Book a Call",
+              "href": "/book"
+            },
+            {
+              "type": "link",
+              "text": "Explore Services",
+              "href": "/services"
+            }
+          ]
+        }
+      ],
+      "content_sha256": "bfa64f73aef689dfad0f3b755c14eb75371c935f7814eb5e913f777ba9466d08"
+    }
+  ]
+}

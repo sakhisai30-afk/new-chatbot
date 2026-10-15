@@ -1,0 +1,195 @@
+{
+  "schema_version": 1,
+  "source": "https://zuigo.ai/contact",
+  "fetched_at": "2026-10-12T07:40:41.729444+00:00",
+  "source_sha256": "27ddff47633dc717f63078f838cf161b7c22d10b0dd6ba55c16adc57ed6bf032",
+  "records": [
+    {
+      "kind": "page",
+      "id": "contact",
+      "label": "Contact",
+      "name": "Let's Start a Conversation",
+      "page_title": "Contact | ZuiGO",
+      "introduction": "Tell us what you need built and what you're working against. Fill out the form and we'll get back to you within 24 hours.",
+      "source": "https://zuigo.ai/contact",
+      "topics": {
+        "Send Us a Message": "A rough range lets us reply with a realistic scope instead of another call. “Not sure yet” is a fine answer.\nWe reply within 24 hours. No sales spam, ever.",
+        "Prefer to talk?": "Prefer to talk?\nSkip the form and book a 30-minute call at a time that suits you.\nBook a Call",
+        "Follow Us": "Follow Us\nStay connected for the latest technology insights and updates.\nLinkedIn\nTwitter\nYouTube\nFacebook",
+        "Email": "Email hello@zuigo.ai",
+        "Contact details": "Email: hello@zuigo.ai\nTelephone: +917058827371\nThe contact page says ZuiGO will reply within 24 hours.",
+        "Location": "Organization structured data lists: Pune, Maharashtra, IN. No street address was published in this structured data.",
+        "Contact form fields": "- Full Name *\n- Email Address *\n- Company (optional)\n- What do you need? (optional)\n- Budget range (optional)\n- Message *",
+        "Contact form options": "What do you need? (optional)\n- Healthcare Software\n- AI & Machine Learning\n- Fintech Solutions\n- Launch & growth support\n- Custom Software Development\n- Cloud & DevOps\n- Other\nBudget range (optional)\n- Under $25,000\n- $25,000 – $50,000\n- $50,000 – $100,000\n- $100,000+\n- Not sure yet",
+        "Meeting": "The Contact page offers a 30-minute call. Its “Book a Call” link points to https://zuigo.ai/book."
+      },
+      "sections": [
+        {
+          "heading": "Send Us a Message",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "A rough range lets us reply with a realistic scope instead of another call. “Not sure yet” is a fine answer."
+            },
+            {
+              "type": "paragraph",
+              "text": "We reply within 24 hours. No sales spam, ever."
+            }
+          ]
+        },
+        {
+          "heading": "Prefer to talk?",
+          "content": [
+            {
+              "type": "subheading",
+              "text": "Prefer to talk?"
+            },
+            {
+              "type": "paragraph",
+              "text": "Skip the form and book a 30-minute call at a time that suits you."
+            },
+            {
+              "type": "link",
+              "text": "Book a Call",
+              "href": "/book"
+            }
+          ]
+        },
+        {
+          "heading": "Follow Us",
+          "content": [
+            {
+              "type": "subheading",
+              "text": "Follow Us"
+            },
+            {
+              "type": "paragraph",
+              "text": "Stay connected for the latest technology insights and updates."
+            },
+            {
+              "type": "link",
+              "text": "LinkedIn",
+              "href": "https://www.linkedin.com/company/zuigo-ai/"
+            },
+            {
+              "type": "link",
+              "text": "Twitter",
+              "href": "https://x.com/zuigoapp"
+            },
+            {
+              "type": "link",
+              "text": "YouTube",
+              "href": "https://youtube.com/@zuigo"
+            },
+            {
+              "type": "link",
+              "text": "Facebook",
+              "href": "https://www.facebook.com/profile.php?id=61591502318681"
+            }
+          ]
+        },
+        {
+          "heading": "Email",
+          "content": [
+            {
+              "type": "link",
+              "text": "Email hello@zuigo.ai",
+              "href": "mailto:hello@zuigo.ai"
+            }
+          ]
+        },
+        {
+          "heading": "Contact form fields",
+          "content": [
+            {
+              "type": "list_item",
+              "text": "Full Name *"
+            },
+            {
+              "type": "list_item",
+              "text": "Email Address *"
+            },
+            {
+              "type": "list_item",
+              "text": "Company (optional)"
+            },
+            {
+              "type": "list_item",
+              "text": "What do you need? (optional)"
+            },
+            {
+              "type": "list_item",
+              "text": "Budget range (optional)"
+            },
+            {
+              "type": "list_item",
+              "text": "Message *"
+            }
+          ]
+        },
+        {
+          "heading": "Contact form options",
+          "content": [
+            {
+              "type": "subheading",
+              "text": "What do you need? (optional)"
+            },
+            {
+              "type": "list_item",
+              "text": "Healthcare Software"
+            },
+            {
+              "type": "list_item",
+              "text": "AI & Machine Learning"
+            },
+            {
+              "type": "list_item",
+              "text": "Fintech Solutions"
+            },
+            {
+              "type": "list_item",
+              "text": "Launch & growth support"
+            },
+            {
+              "type": "list_item",
+              "text": "Custom Software Development"
+            },
+            {
+              "type": "list_item",
+              "text": "Cloud & DevOps"
+            },
+            {
+              "type": "list_item",
+              "text": "Other"
+            },
+            {
+              "type": "subheading",
+              "text": "Budget range (optional)"
+            },
+            {
+              "type": "list_item",
+              "text": "Under $25,000"
+            },
+            {
+              "type": "list_item",
+              "text": "$25,000 – $50,000"
+            },
+            {
+              "type": "list_item",
+              "text": "$50,000 – $100,000"
+            },
+            {
+              "type": "list_item",
+              "text": "$100,000+"
+            },
+            {
+              "type": "list_item",
+              "text": "Not sure yet"
+            }
+          ]
+        }
+      ],
+      "content_sha256": "d83661241eaa6b8d872f34bb63e828904d781e8742d8c1a4dde0b0304fced107"
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "schema_version": 1,
+  "source": "https://zuigo.ai/services/ai-machine-learning",
+  "fetched_at": "2026-10-12T07:14:58.363703+00:00",
+  "source_sha256": "de71e97687499b717b7084823544c406ee2e87a7e54503225f40bf3f4a72b08c",
+  "records": [
+    {
+      "kind": "service",
+      "id": "ai-ml",
+      "label": "AI & Machine Learning",
+      "name": "AI & Machine Learning",
+      "page_title": "AI & Machine Learning Services | ZuiGO",
+      "introduction": "Custom AI solutions that automate processes, generate insights, and drive intelligent decision-making.\n\nFrom predictive analytics and natural language processing to computer vision and recommendation engines, we build production-ready AI systems that solve real business problems. Our team combines deep research expertise with practical engineering to deliver AI that works at scale.",
+      "source": "https://zuigo.ai/services/ai-machine-learning",
+      "topics": {
+        "Solutions": "Why choose ZuiGO for AI & Machine Learning?\nZuiGO's ai & machine learning engagements are built around these outcomes:\n- Intelligent process automation\n- Data-driven predictive insights\n- Natural language & computer vision\n- Scalable ML pipelines\n- Responsible AI & governance\n\nWhat's included in a ZuiGO AI & Machine Learning engagement?\nEvery ZuiGO ai & machine learning project ships with:\n- Production ML models with serving APIs & monitoring\n- LLM apps: RAG, agents, and copilots with guardrails\n- Data & MLOps pipelines for training and retraining\n- Model evaluation, drift detection & governance docs",
+        "How We Deliver": "How does ZuiGO deliver AI & Machine Learning?\nZuiGO delivers ai & machine learning in 5 stages, from discovery through deployment:\nProblem Definition & Data Assessment\nIdentify high-impact AI opportunities and evaluate data readiness and quality.\nModel Development & Training\nBuild, train, and validate custom models using state-of-the-art techniques.\nIntegration & Deployment\nDeploy models into production environments with robust APIs and monitoring.\nMonitoring & Optimization\nContinuous model performance tracking, retraining, and drift detection.\nScale & Productionize\nOptimize for scale, cost efficiency, and reliability across the organization.",
+        "Technologies": "Which technologies does ZuiGO use for AI & Machine Learning?\nZuiGO builds ai & machine learning on the stack below. We choose technologies per project, so this is a representative set rather than a fixed requirement.\n- Python\n- PyTorch\n- Claude / OpenAI APIs\n- LangChain\n- Vector DBs\n- FastAPI\n- MLflow\n- AWS / GCP",
+        "Projects": "What AI & Machine Learning projects does ZuiGO build?\nThese are representative ai & machine learning projects ZuiGO builds — illustrative of typical scope and approach, not a client list.\nAI selling assistant\nA retrieval-augmented assistant that answers product questions and guides buyers, wired into commerce data.\nDocument intelligence\nExtraction and classification over unstructured documents with human-in-the-loop review.\nPredictive analytics\nForecasting and recommendation models deployed behind APIs with continuous monitoring."
+      },
+      "sections": [
+        {
+          "heading": "Why choose ZuiGO for AI & Machine Learning?",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "ZuiGO's ai & machine learning engagements are built around these outcomes:"
+            },
+            {
+              "type": "list_item",
+              "text": "Intelligent process automation"
+            },
+            {
+              "type": "list_item",
+              "text": "Data-driven predictive insights"
+            },
+            {
+              "type": "list_item",
+              "text": "Natural language & computer vision"
+            },
+            {
+              "type": "list_item",
+              "text": "Scalable ML pipelines"
+            },
+            {
+              "type": "list_item",
+              "text": "Responsible AI & governance"
+            }
+          ]
+        },
+        {
+          "heading": "How does ZuiGO deliver AI & Machine Learning?",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "ZuiGO delivers ai & machine learning in 5 stages, from discovery through deployment:"
+            },
+            {
+              "type": "subheading",
+              "text": "Problem Definition & Data Assessment"
+            },
+            {
+              "type": "paragraph",
+              "text": "Identify high-impact AI opportunities and evaluate data readiness and quality."
+            },
+            {
+              "type": "subheading",
+              "text": "Model Development & Training"
+            },
+            {
+              "type": "paragraph",
+              "text": "Build, train, and validate custom models using state-of-the-art techniques."
+            },
+            {
+              "type": "subheading",
+              "text": "Integration & Deployment"
+            },
+            {
+              "type": "paragraph",
+              "text": "Deploy models into production environments with robust APIs and monitoring."
+            },
+            {
+              "type": "subheading",
+              "text": "Monitoring & Optimization"
+            },
+            {
+              "type": "paragraph",
+              "text": "Continuous model performance tracking, retraining, and drift detection."
+            },
+            {
+              "type": "subheading",
+              "text": "Scale & Productionize"
+            },
+            {
+              "type": "paragraph",
+              "text": "Optimize for scale, cost efficiency, and reliability across the organization."
+            }
+          ]
+        },
+        {
+          "heading": "What's included in a ZuiGO AI & Machine Learning engagement?",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Every ZuiGO ai & machine learning project ships with:"
+            },
+            {
+              "type": "list_item",
+              "text": "Production ML models with serving APIs & monitoring"
+            },
+            {
+              "type": "list_item",
+              "text": "LLM apps: RAG, agents, and copilots with guardrails"
+            },
+            {
+              "type": "list_item",
+              "text": "Data & MLOps pipelines for training and retraining"
+            },
+            {
+              "type": "list_item",
+              "text": "Model evaluation, drift detection & governance docs"
+            }
+          ]
+        },
+        {
+          "heading": "Which technologies does ZuiGO use for AI & Machine Learning?",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "ZuiGO builds ai & machine learning on the stack below. We choose technologies per project, so this is a representative set rather than a fixed requirement."
+            },
+            {
+              "type": "list_item",
+              "text": "Python"
+            },
+            {
+              "type": "list_item",
+              "text": "PyTorch"
+            },
+            {
+              "type": "list_item",
+              "text": "Claude / OpenAI APIs"
+            },
+            {
+              "type": "list_item",
+              "text": "LangChain"
+            },
+            {
+              "type": "list_item",
+              "text": "Vector DBs"
+            },
+            {
+              "type": "list_item",
+              "text": "FastAPI"
+            },
+            {
+              "type": "list_item",
+              "text": "MLflow"
+            },
+            {
+              "type": "list_item",
+              "text": "AWS / GCP"
+            }
+          ]
+        },
+        {
+          "heading": "What AI & Machine Learning projects does ZuiGO build?",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "These are representative ai & machine learning projects ZuiGO builds — illustrative of typical scope and approach, not a client list."
+            },
+            {
+              "type": "subheading",
+              "text": "AI selling assistant"
+            },
+            {
+              "type": "paragraph",
+              "text": "A retrieval-augmented assistant that answers product questions and guides buyers, wired into commerce data."
+            },
+            {
+              "type": "subheading",
+              "text": "Document intelligence"
+            },
+            {
+              "type": "paragraph",
+              "text": "Extraction and classification over unstructured documents with human-in-the-loop review."
+            },
+            {
+              "type": "subheading",
+              "text": "Predictive analytics"
+            },
+            {
+              "type": "paragraph",
+              "text": "Forecasting and recommendation models deployed behind APIs with continuous monitoring."
+            }
+          ]
+        },
+        {
+          "heading": "Start with whether your data is ready",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Most AI projects fail on data, not models. Show us what you hold and we will tell you honestly whether it supports what you want to build, and what it would take if it does not."
+            },
+            {
+              "type": "link",
+              "text": "Book a Call",
+              "href": "/book"
+            },
+            {
+              "type": "link",
+              "text": "Send a Message",
+              "href": "/contact"
+            }
+          ]
+        }
+      ],
+      "content_sha256": "3993ff135cfbc476ce9ffd3b84ce41e6be1ded5c95373de259b1d13ce2439ca0"
+    }
+  ]
+}

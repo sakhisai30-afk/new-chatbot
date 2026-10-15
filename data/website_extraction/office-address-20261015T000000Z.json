@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "source": "https://zuigo.ai/contact",
+  "fetched_at": "2026-10-15T00:00:00+00:00",
+  "records": [
+    {
+      "kind": "project_fact",
+      "id": "office-address",
+      "label": "Office address and location",
+      "name": "Office address and location",
+      "page_title": "Office address and location",
+      "introduction": "The address provided for this chatbot is: Runwal Platinum, NDA Pashan Road, Ram Nagar, Bavdhan, Pune, Maharashtra – 411021.",
+      "source": "https://zuigo.ai/contact",
+      "provenance": "Project-provided address, not extracted from the website.",
+      "sections": [
+        {
+          "heading": "What is the office address? Where is ZuiGO located?",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "ZuiGO's office address (provided for this chatbot): Runwal Platinum, NDA Pashan Road, Ram Nagar, Bavdhan, Pune, Maharashtra – 411021, India. The official Contact page identifies Pune, Maharashtra, India. Email: hello@zuigo.ai."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

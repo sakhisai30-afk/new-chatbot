@@ -1,0 +1,218 @@
+{
+  "schema_version": 1,
+  "source": "https://zuigo.ai/services/fintech-software",
+  "fetched_at": "2026-10-12T07:14:58.493052+00:00",
+  "source_sha256": "e11ce4c04ffa002cdb52fb24a38892baa35ffffc515402be41957d3c619606a0",
+  "records": [
+    {
+      "kind": "service",
+      "id": "fintech",
+      "label": "Fintech",
+      "name": "Fintech Software Solutions",
+      "page_title": "Fintech Software Solutions Services | ZuiGO",
+      "introduction": "Secure financial technology platforms for payments, lending, wealth management, and more.\n\nWe develop financial software built for scale and trust. Our expertise spans payment processing systems, digital lending platforms, wealth management dashboards, blockchain integrations, and open banking APIs designed to handle high volumes securely.",
+      "source": "https://zuigo.ai/services/fintech-software",
+      "topics": {
+        "Solutions": "Why choose ZuiGO for Fintech Software?\nZuiGO's fintech software engagements are built around these outcomes:\n- Real-time payment processing\n- Digital lending & credit platforms\n- Blockchain & smart contract integration\n- Open banking & API-first architecture\n\nWhat's included in a ZuiGO Fintech Software engagement?\nEvery ZuiGO fintech software project ships with:\n- Payment processing & digital wallet systems\n- Digital lending / credit-decisioning platforms\n- Open-banking & third-party financial API integrations\n- Audit trails, encryption & fraud-monitoring tooling",
+        "How We Deliver": "How does ZuiGO deliver Fintech Software?\nZuiGO delivers fintech software in 5 stages, from discovery through deployment:\nRequirements & Planning\nMap business requirements against technical architecture and security needs.\nArchitecture & Security Design\nDesign fault-tolerant, encrypted architectures with audit trail capabilities.\nDevelopment & Integration\nBuild modular financial systems with third-party payment and data integrations.\nSecurity Review & Testing\nComprehensive security review, penetration testing, and verification.\nDeployment & Monitoring\nProduction deployment with real-time transaction monitoring and fraud detection.",
+        "Technologies": "Which technologies does ZuiGO use for Fintech Software?\nZuiGO builds fintech software on the stack below. We choose technologies per project, so this is a representative set rather than a fixed requirement.\n- TypeScript\n- Node.js\n- Go\n- PostgreSQL\n- Redis\n- Stripe / payment APIs\n- Kafka\n- AWS",
+        "Projects": "What Fintech Software projects does ZuiGO build?\nThese are representative fintech software projects ZuiGO builds — illustrative of typical scope and approach, not a client list.\nPayments platform\nHigh-throughput transaction processing with reconciliation, ledgering, and real-time fraud checks.\nDigital lending\nAn application-to-disbursement flow with credit decisioning and configurable underwriting rules.\nWealth dashboard\nA secure portfolio and reporting dashboard aggregating accounts through open-banking APIs."
+      },
+      "sections": [
+        {
+          "heading": "Why choose ZuiGO for Fintech Software?",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "ZuiGO's fintech software engagements are built around these outcomes:"
+            },
+            {
+              "type": "list_item",
+              "text": "Real-time payment processing"
+            },
+            {
+              "type": "list_item",
+              "text": "Digital lending & credit platforms"
+            },
+            {
+              "type": "list_item",
+              "text": "Blockchain & smart contract integration"
+            },
+            {
+              "type": "list_item",
+              "text": "Open banking & API-first architecture"
+            }
+          ]
+        },
+        {
+          "heading": "How does ZuiGO deliver Fintech Software?",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "ZuiGO delivers fintech software in 5 stages, from discovery through deployment:"
+            },
+            {
+              "type": "subheading",
+              "text": "Requirements & Planning"
+            },
+            {
+              "type": "paragraph",
+              "text": "Map business requirements against technical architecture and security needs."
+            },
+            {
+              "type": "subheading",
+              "text": "Architecture & Security Design"
+            },
+            {
+              "type": "paragraph",
+              "text": "Design fault-tolerant, encrypted architectures with audit trail capabilities."
+            },
+            {
+              "type": "subheading",
+              "text": "Development & Integration"
+            },
+            {
+              "type": "paragraph",
+              "text": "Build modular financial systems with third-party payment and data integrations."
+            },
+            {
+              "type": "subheading",
+              "text": "Security Review & Testing"
+            },
+            {
+              "type": "paragraph",
+              "text": "Comprehensive security review, penetration testing, and verification."
+            },
+            {
+              "type": "subheading",
+              "text": "Deployment & Monitoring"
+            },
+            {
+              "type": "paragraph",
+              "text": "Production deployment with real-time transaction monitoring and fraud detection."
+            }
+          ]
+        },
+        {
+          "heading": "What's included in a ZuiGO Fintech Software engagement?",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Every ZuiGO fintech software project ships with:"
+            },
+            {
+              "type": "list_item",
+              "text": "Payment processing & digital wallet systems"
+            },
+            {
+              "type": "list_item",
+              "text": "Digital lending / credit-decisioning platforms"
+            },
+            {
+              "type": "list_item",
+              "text": "Open-banking & third-party financial API integrations"
+            },
+            {
+              "type": "list_item",
+              "text": "Audit trails, encryption & fraud-monitoring tooling"
+            }
+          ]
+        },
+        {
+          "heading": "Which technologies does ZuiGO use for Fintech Software?",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "ZuiGO builds fintech software on the stack below. We choose technologies per project, so this is a representative set rather than a fixed requirement."
+            },
+            {
+              "type": "list_item",
+              "text": "TypeScript"
+            },
+            {
+              "type": "list_item",
+              "text": "Node.js"
+            },
+            {
+              "type": "list_item",
+              "text": "Go"
+            },
+            {
+              "type": "list_item",
+              "text": "PostgreSQL"
+            },
+            {
+              "type": "list_item",
+              "text": "Redis"
+            },
+            {
+              "type": "list_item",
+              "text": "Stripe / payment APIs"
+            },
+            {
+              "type": "list_item",
+              "text": "Kafka"
+            },
+            {
+              "type": "list_item",
+              "text": "AWS"
+            }
+          ]
+        },
+        {
+          "heading": "What Fintech Software projects does ZuiGO build?",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "These are representative fintech software projects ZuiGO builds — illustrative of typical scope and approach, not a client list."
+            },
+            {
+              "type": "subheading",
+              "text": "Payments platform"
+            },
+            {
+              "type": "paragraph",
+              "text": "High-throughput transaction processing with reconciliation, ledgering, and real-time fraud checks."
+            },
+            {
+              "type": "subheading",
+              "text": "Digital lending"
+            },
+            {
+              "type": "paragraph",
+              "text": "An application-to-disbursement flow with credit decisioning and configurable underwriting rules."
+            },
+            {
+              "type": "subheading",
+              "text": "Wealth dashboard"
+            },
+            {
+              "type": "paragraph",
+              "text": "A secure portfolio and reporting dashboard aggregating accounts through open-banking APIs."
+            }
+          ]
+        },
+        {
+          "heading": "Talk to us about ledgers, limits, and audit trails",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Payments, lending, and reconciliation break in specific ways at specific volumes. Tell us your throughput and your regulator, and we will scope against those rather than against a template."
+            },
+            {
+              "type": "link",
+              "text": "Book a Call",
+              "href": "/book"
+            },
+            {
+              "type": "link",
+              "text": "Send a Message",
+              "href": "/contact"
+            }
+          ]
+        }
+      ],
+      "content_sha256": "69ca5ea4c0211867aae6e9cf3fb55cffb5e026406f72caafed72b484295af568"
+    }
+  ]
+}

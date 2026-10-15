@@ -1,0 +1,222 @@
+{
+  "schema_version": 1,
+  "source": "https://zuigo.ai/services/custom-software",
+  "fetched_at": "2026-10-12T07:14:58.564210+00:00",
+  "source_sha256": "7f1c56604a0579545e1299a154abf54aae13d5ccd1bc8558c8649738da618e83",
+  "records": [
+    {
+      "kind": "service",
+      "id": "custom-software",
+      "label": "Custom Software Development",
+      "name": "Custom Software Development",
+      "page_title": "Custom Software Development Services | ZuiGO",
+      "introduction": "End-to-end custom software engineering from concept to deployment and beyond.\n\nWe design and build custom software tailored to your unique business needs. Whether it's a SaaS platform, mobile application, internal tool, or enterprise system, our engineering team follows industry best practices to deliver reliable, maintainable, and scalable software on time and on budget.",
+      "source": "https://zuigo.ai/services/custom-software",
+      "topics": {
+        "Solutions": "Why choose ZuiGO for Custom Software Development?\nZuiGO's custom software development engagements are built around these outcomes:\n- Tailored solutions for your exact needs\n- Modern tech stack & best practices\n- Scalable & maintainable architecture\n- Rapid prototyping & MVP development\n- Ongoing support & iteration\n\nWhat's included in a ZuiGO Custom Software Development engagement?\nEvery ZuiGO custom software development project ships with:\n- Web & mobile applications\n- SaaS platforms & multi-tenant systems\n- Internal tools, dashboards & admin panels\n- APIs, integrations & technical documentation",
+        "How We Deliver": "How does ZuiGO deliver Custom Software Development?\nZuiGO delivers custom software development in 5 stages, from discovery through deployment:\nDiscovery & Requirements\nIn-depth consultation to define project scope, user needs, and technical requirements.\nArchitecture & Design\nSystem design, technology selection, and UX/UI prototyping.\nAgile Development\nIterative development with regular demos, code reviews, and testing.\nQuality Assurance\nAutomated testing, manual QA, and performance optimization.\nDeployment & Support\nProduction deployment, monitoring, and ongoing maintenance and iteration.",
+        "Technologies": "Which technologies does ZuiGO use for Custom Software Development?\nZuiGO builds custom software development on the stack below. We choose technologies per project, so this is a representative set rather than a fixed requirement.\n- React\n- Next.js\n- React Native\n- Node.js\n- TypeScript\n- PostgreSQL\n- Docker\n- AWS",
+        "Projects": "What Custom Software Development projects does ZuiGO build?\nThese are representative custom software development projects ZuiGO builds — illustrative of typical scope and approach, not a client list.\nSaaS MVP\nFrom prototype to production: auth, billing, core workflows, and an admin panel ready for first customers.\nWorkflow automation\nAn internal tool that replaces spreadsheets and manual steps with a purpose-built, auditable system.\nLegacy modernization\nRe-platforming an aging system onto a maintainable, well-tested modern stack without downtime."
+      },
+      "sections": [
+        {
+          "heading": "Why choose ZuiGO for Custom Software Development?",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "ZuiGO's custom software development engagements are built around these outcomes:"
+            },
+            {
+              "type": "list_item",
+              "text": "Tailored solutions for your exact needs"
+            },
+            {
+              "type": "list_item",
+              "text": "Modern tech stack & best practices"
+            },
+            {
+              "type": "list_item",
+              "text": "Scalable & maintainable architecture"
+            },
+            {
+              "type": "list_item",
+              "text": "Rapid prototyping & MVP development"
+            },
+            {
+              "type": "list_item",
+              "text": "Ongoing support & iteration"
+            }
+          ]
+        },
+        {
+          "heading": "How does ZuiGO deliver Custom Software Development?",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "ZuiGO delivers custom software development in 5 stages, from discovery through deployment:"
+            },
+            {
+              "type": "subheading",
+              "text": "Discovery & Requirements"
+            },
+            {
+              "type": "paragraph",
+              "text": "In-depth consultation to define project scope, user needs, and technical requirements."
+            },
+            {
+              "type": "subheading",
+              "text": "Architecture & Design"
+            },
+            {
+              "type": "paragraph",
+              "text": "System design, technology selection, and UX/UI prototyping."
+            },
+            {
+              "type": "subheading",
+              "text": "Agile Development"
+            },
+            {
+              "type": "paragraph",
+              "text": "Iterative development with regular demos, code reviews, and testing."
+            },
+            {
+              "type": "subheading",
+              "text": "Quality Assurance"
+            },
+            {
+              "type": "paragraph",
+              "text": "Automated testing, manual QA, and performance optimization."
+            },
+            {
+              "type": "subheading",
+              "text": "Deployment & Support"
+            },
+            {
+              "type": "paragraph",
+              "text": "Production deployment, monitoring, and ongoing maintenance and iteration."
+            }
+          ]
+        },
+        {
+          "heading": "What's included in a ZuiGO Custom Software Development engagement?",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Every ZuiGO custom software development project ships with:"
+            },
+            {
+              "type": "list_item",
+              "text": "Web & mobile applications"
+            },
+            {
+              "type": "list_item",
+              "text": "SaaS platforms & multi-tenant systems"
+            },
+            {
+              "type": "list_item",
+              "text": "Internal tools, dashboards & admin panels"
+            },
+            {
+              "type": "list_item",
+              "text": "APIs, integrations & technical documentation"
+            }
+          ]
+        },
+        {
+          "heading": "Which technologies does ZuiGO use for Custom Software Development?",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "ZuiGO builds custom software development on the stack below. We choose technologies per project, so this is a representative set rather than a fixed requirement."
+            },
+            {
+              "type": "list_item",
+              "text": "React"
+            },
+            {
+              "type": "list_item",
+              "text": "Next.js"
+            },
+            {
+              "type": "list_item",
+              "text": "React Native"
+            },
+            {
+              "type": "list_item",
+              "text": "Node.js"
+            },
+            {
+              "type": "list_item",
+              "text": "TypeScript"
+            },
+            {
+              "type": "list_item",
+              "text": "PostgreSQL"
+            },
+            {
+              "type": "list_item",
+              "text": "Docker"
+            },
+            {
+              "type": "list_item",
+              "text": "AWS"
+            }
+          ]
+        },
+        {
+          "heading": "What Custom Software Development projects does ZuiGO build?",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "These are representative custom software development projects ZuiGO builds — illustrative of typical scope and approach, not a client list."
+            },
+            {
+              "type": "subheading",
+              "text": "SaaS MVP"
+            },
+            {
+              "type": "paragraph",
+              "text": "From prototype to production: auth, billing, core workflows, and an admin panel ready for first customers."
+            },
+            {
+              "type": "subheading",
+              "text": "Workflow automation"
+            },
+            {
+              "type": "paragraph",
+              "text": "An internal tool that replaces spreadsheets and manual steps with a purpose-built, auditable system."
+            },
+            {
+              "type": "subheading",
+              "text": "Legacy modernization"
+            },
+            {
+              "type": "paragraph",
+              "text": "Re-platforming an aging system onto a maintainable, well-tested modern stack without downtime."
+            }
+          ]
+        },
+        {
+          "heading": "Bring the spreadsheet you have outgrown",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Most of what we build replaces something that already works badly. Show us the process, the workarounds, and who depends on them, and we will size a replacement."
+            },
+            {
+              "type": "link",
+              "text": "Book a Call",
+              "href": "/book"
+            },
+            {
+              "type": "link",
+              "text": "Send a Message",
+              "href": "/contact"
+            }
+          ]
+        }
+      ],
+      "content_sha256": "40debb0b30c725207a7831f81551677cccad88893a6890b77531a01b9656d091"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "source": "https://zuigo.ai/book",
+  "fetched_at": "2026-10-12T07:14:59.600081+00:00",
+  "source_sha256": "e512a214ec896c1e6d913d074274afa8805b649bd9e8c7cd0f8a9d71712c9944",
+  "records": [
+    {
+      "kind": "booking",
+      "id": "meeting",
+      "label": "Meeting and booking",
+      "name": "Book a Call",
+      "page_title": "Book With Me",
+      "introduction": "The official Contact page offers a 30-minute call. The ZuiGO booking route redirects to the verified destination below.",
+      "source": "https://zuigo.ai/book",
+      "resolved_url": "https://bookings.cloud.microsoft/bookwithme/user/7a118ffd0485448da07ba8da90bc794b@zuigo.ai/meetingtype/UiV1LU0dEkqaxkNzBIToww2?anonymous&ismsaljsauthenabled&ep=mlink",
+      "evidence_source": "https://zuigo.ai/contact",
+      "topics": {
+        "Meeting": "ZuiGO's Contact page describes the call as 30 minutes.",
+        "Booking URL": "https://bookings.cloud.microsoft/bookwithme/user/7a118ffd0485448da07ba8da90bc794b@zuigo.ai/meetingtype/UiV1LU0dEkqaxkNzBIToww2?anonymous&ismsaljsauthenabled&ep=mlink",
+        "Availability": "The booking destination requires JavaScript and its appointment slots and availability could not be verified from the static page."
+      },
+      "sections": [
+        {
+          "heading": "Booking destination",
+          "content": [
+            {
+              "type": "link",
+              "text": "Book a Call",
+              "href": "https://bookings.cloud.microsoft/bookwithme/user/7a118ffd0485448da07ba8da90bc794b@zuigo.ai/meetingtype/UiV1LU0dEkqaxkNzBIToww2?anonymous&ismsaljsauthenabled&ep=mlink"
+            },
+            {
+              "type": "paragraph",
+              "text": "The destination page title is Book With Me. Static extraction did not expose appointment slots or availability."
+            }
+          ]
+        }
+      ],
+      "content_sha256": "a65b1983877f659c1401cfacf2c82d5c665aa6c2dec432fc8674ea09ba2cfdfc"
+    }
+  ]
+}

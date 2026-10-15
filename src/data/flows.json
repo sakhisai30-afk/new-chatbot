@@ -1,0 +1,14 @@
+{
+  "start": {
+    "message": "Hi! I'm the ZuiGO website assistant. What would you like to explore?",
+    "buttons": ["Services", "Contact", "Address / Location", "Meeting", "Technology Information", "About ZuiGO"]
+  },
+  "services": {
+    "message": "Which ZuiGO service would you like to explore?",
+    "buttons": ["Healthcare", "AI & Machine Learning", "Fintech", "Custom Software Development", "Cloud & DevOps"]
+  },
+  "afterAnswer": {
+    "message": "What would you like to explore next? You can also type a keyword or question.",
+    "buttons": ["Services", "Contact", "Address / Location", "Meeting", "Technology Information", "About ZuiGO"]
+  }
+}

@@ -1,0 +1,67 @@
+[
+  {
+    "id": "healthcare",
+    "label": "Healthcare",
+    "name": "Healthcare",
+    "introduction": "ZuiGO builds secure, scalable healthcare software for providers, patients, and healthcare organizations, including EHR systems, telemedicine platforms, patient portals, and medical data analytics.",
+    "source": "https://zuigo.ai/services/healthcare-software",
+    "topics": {
+      "Solutions": "Healthcare solutions include EHR/EMR and patient portals, telemedicine and remote monitoring, HL7/FHIR integrations, and analytics dashboards with compliance reporting.",
+      "How We Deliver": "Delivery follows five stages: discovery and planning, solution architecture, development and integration, quality assurance, and deployment and training.",
+      "Technologies": "Representative technologies include React, Next.js, Node.js, Python, FHIR/HL7, PostgreSQL, AWS, and Docker. ZuiGO selects technologies per project.",
+      "Projects": "Representative projects include a patient portal with telehealth, a clinical analytics platform, and remote patient monitoring. These are illustrative examples, not a client list."
+    }
+  },
+  {
+    "id": "ai-ml",
+    "label": "AI & Machine Learning",
+    "name": "AI & Machine Learning",
+    "introduction": "ZuiGO builds production-ready AI systems for process automation, insights, and decision-making, including predictive analytics, natural language processing, computer vision, and recommendation engines.",
+    "source": "https://zuigo.ai/services/ai-machine-learning",
+    "topics": {
+      "Solutions": "AI solutions include production ML models, LLM apps such as RAG, agents and copilots with guardrails, data and MLOps pipelines, and model evaluation, drift detection and governance.",
+      "How We Deliver": "Delivery follows five stages: problem definition and data assessment, model development and training, integration and deployment, monitoring and optimization, and scaling to production.",
+      "Technologies": "Representative technologies include Python, PyTorch, Claude/OpenAI APIs, LangChain, vector databases, FastAPI, MLflow, AWS, and GCP. ZuiGO selects technologies per project.",
+      "Projects": "Representative projects include an AI selling assistant, document intelligence, and predictive analytics. These are illustrative examples, not a client list."
+    }
+  },
+  {
+    "id": "fintech",
+    "label": "Fintech",
+    "name": "Fintech",
+    "introduction": "ZuiGO develops secure financial technology platforms for payments, lending, and wealth management, including payment processing, digital lending, blockchain integrations, and open banking APIs.",
+    "source": "https://zuigo.ai/services/fintech-software",
+    "topics": {
+      "Solutions": "Fintech solutions include payment processing and digital wallets, lending and credit decisioning, open-banking and third-party financial API integrations, and audit, encryption, and fraud-monitoring tools.",
+      "How We Deliver": "Delivery follows five stages: requirements and planning, architecture and security design, development and integration, security review and testing, and deployment and monitoring.",
+      "Technologies": "Representative technologies include TypeScript, Node.js, Go, PostgreSQL, Redis, Stripe/payment APIs, Kafka, and AWS. ZuiGO selects technologies per project.",
+      "Projects": "Representative projects include a payments platform, digital lending, and a wealth dashboard. These are illustrative examples, not a client list."
+    }
+  },
+  {
+    "id": "custom-software",
+    "label": "Custom Software Development",
+    "name": "Custom Software Development",
+    "introduction": "ZuiGO provides end-to-end custom software engineering, building tailored web, mobile, SaaS, internal-tool, and enterprise solutions from concept through deployment and ongoing support.",
+    "source": "https://zuigo.ai/services/custom-software",
+    "topics": {
+      "Solutions": "Solutions include web and mobile apps, SaaS and multi-tenant platforms, internal tools and dashboards, and APIs, integrations, and technical documentation.",
+      "How We Deliver": "Delivery follows five stages: discovery and requirements, architecture and design, agile development, quality assurance, and deployment and support.",
+      "Technologies": "Representative technologies include React, Next.js, React Native, Node.js, TypeScript, PostgreSQL, Docker, and AWS. ZuiGO selects technologies per project.",
+      "Projects": "Representative projects include a SaaS MVP, workflow automation, and legacy modernization. These are illustrative examples, not a client list."
+    }
+  },
+  {
+    "id": "cloud-devops",
+    "label": "Cloud & DevOps",
+    "name": "Cloud & DevOps",
+    "introduction": "ZuiGO helps organizations modernize infrastructure with cloud-native architectures, automated deployment pipelines, and monitoring across AWS, Azure, and GCP.",
+    "source": "https://zuigo.ai/services/cloud-devops",
+    "topics": {
+      "Solutions": "Solutions include cloud migration and landing-zone setup, CI/CD and release automation, Terraform infrastructure modules, and observability, alerting, and incident runbooks.",
+      "How We Deliver": "Delivery follows five stages: infrastructure assessment, architecture design, implementation and migration, automation and CI/CD, and monitoring and management.",
+      "Technologies": "Representative technologies include AWS, Azure, GCP, Terraform, Docker, Kubernetes, GitHub Actions, Grafana, and Prometheus. ZuiGO selects technologies per project.",
+      "Projects": "Representative projects include cloud migration, CI/CD automation, and observability rollout. These are illustrative examples, not a client list."
+    }
+  }
+]

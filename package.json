@@ -1,0 +1,30 @@
+{
+  "name": "zuigo-website-chatbot",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "concurrently \"vite\" \"node server/index.js\"",
+    "client": "vite",
+    "server": "node server/index.js",
+    "build": "vite build",
+    "start": "node server/index.js",
+    "i18n:build": "node scripts/i18n/build-locales.mjs",
+    "i18n:validate": "node scripts/i18n/validate-i18n.mjs"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "concurrently": "latest",
+    "express": "latest",
+    "express-rate-limit": "latest",
+    "helmet": "latest",
+    "multer": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "vite": "latest",
+    "@google/genai": "^1.30.0",
+    "@huggingface/transformers": "^3.7.0",
+    "i18next": "latest",
+    "react-i18next": "latest"
+  },
+  "devDependencies": {}
+}

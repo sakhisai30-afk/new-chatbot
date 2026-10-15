@@ -1,0 +1,216 @@
+{
+  "schema_version": 1,
+  "source": "https://zuigo.ai/services/healthcare-software",
+  "fetched_at": "2026-10-12T07:14:58.253059+00:00",
+  "source_sha256": "e1a62ae317c98d3ba93894a32a8fbb9772ebcc133a46acbba730f4e5433a4cf3",
+  "records": [
+    {
+      "id": "healthcare",
+      "label": "Healthcare",
+      "name": "Healthcare Software Solutions",
+      "introduction": "Custom software solutions for providers, patients, and healthcare organizations.\n\nWe build secure, scalable software for the healthcare industry. From electronic health records (EHR) systems and telemedicine platforms to patient portals and medical data analytics, our solutions help healthcare organizations improve patient outcomes and operational efficiency.",
+      "source": "https://zuigo.ai/services/healthcare-software",
+      "topics": {
+        "Solutions": "Why choose ZuiGO for Healthcare Software?\nZuiGO's healthcare software engagements are built around these outcomes:\n- Interoperable health data systems\n- Patient engagement platforms\n- Telemedicine & remote care solutions\n- Healthcare analytics & reporting\n\nWhat's included in a ZuiGO Healthcare Software engagement?\nEvery ZuiGO healthcare software project ships with:\n- EHR / EMR and patient-portal builds, engineered to your HIPAA controls\n- Telemedicine & remote-monitoring applications\n- HL7 / FHIR integrations with existing health systems\n- Analytics dashboards & automated compliance reporting",
+        "How We Deliver": "How does ZuiGO deliver Healthcare Software?\nZuiGO delivers healthcare software in 5 stages, from discovery through deployment:\nDiscovery & Planning\nThorough assessment of project goals, user needs, and technical requirements.\nSolution Architecture\nDesign scalable, secure architectures that meet healthcare standards and business goals.\nDevelopment & Integration\nAgile development with continuous integration into existing healthcare ecosystems.\nQuality Assurance\nRigorous testing, code review, and performance optimization.\nDeployment & Training\nSmooth rollout with staff training, documentation, and ongoing support.",
+        "Technologies": "Which technologies does ZuiGO use for Healthcare Software?\nZuiGO builds healthcare software on the stack below. We choose technologies per project, so this is a representative set rather than a fixed requirement.\n- React\n- Next.js\n- Node.js\n- Python\n- FHIR / HL7\n- PostgreSQL\n- AWS\n- Docker",
+        "Projects": "What Healthcare Software projects does ZuiGO build?\nThese are representative healthcare software projects ZuiGO builds — illustrative of typical scope and approach, not a client list.\nPatient portal + telehealth\nA unified portal for appointments, records, and secure video visits, integrated with an existing EHR over FHIR.\nClinical analytics platform\nA reporting layer that turns fragmented clinical data into dashboards for outcomes, utilization, and compliance.\nRemote patient monitoring\nDevice data ingestion with alerting and care-team workflows for chronic-condition management."
+      },
+      "sections": [
+        {
+          "heading": "Why choose ZuiGO for Healthcare Software?",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "ZuiGO's healthcare software engagements are built around these outcomes:"
+            },
+            {
+              "type": "list_item",
+              "text": "Interoperable health data systems"
+            },
+            {
+              "type": "list_item",
+              "text": "Patient engagement platforms"
+            },
+            {
+              "type": "list_item",
+              "text": "Telemedicine & remote care solutions"
+            },
+            {
+              "type": "list_item",
+              "text": "Healthcare analytics & reporting"
+            }
+          ]
+        },
+        {
+          "heading": "How does ZuiGO deliver Healthcare Software?",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "ZuiGO delivers healthcare software in 5 stages, from discovery through deployment:"
+            },
+            {
+              "type": "subheading",
+              "text": "Discovery & Planning"
+            },
+            {
+              "type": "paragraph",
+              "text": "Thorough assessment of project goals, user needs, and technical requirements."
+            },
+            {
+              "type": "subheading",
+              "text": "Solution Architecture"
+            },
+            {
+              "type": "paragraph",
+              "text": "Design scalable, secure architectures that meet healthcare standards and business goals."
+            },
+            {
+              "type": "subheading",
+              "text": "Development & Integration"
+            },
+            {
+              "type": "paragraph",
+              "text": "Agile development with continuous integration into existing healthcare ecosystems."
+            },
+            {
+              "type": "subheading",
+              "text": "Quality Assurance"
+            },
+            {
+              "type": "paragraph",
+              "text": "Rigorous testing, code review, and performance optimization."
+            },
+            {
+              "type": "subheading",
+              "text": "Deployment & Training"
+            },
+            {
+              "type": "paragraph",
+              "text": "Smooth rollout with staff training, documentation, and ongoing support."
+            }
+          ]
+        },
+        {
+          "heading": "What's included in a ZuiGO Healthcare Software engagement?",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Every ZuiGO healthcare software project ships with:"
+            },
+            {
+              "type": "list_item",
+              "text": "EHR / EMR and patient-portal builds, engineered to your HIPAA controls"
+            },
+            {
+              "type": "list_item",
+              "text": "Telemedicine & remote-monitoring applications"
+            },
+            {
+              "type": "list_item",
+              "text": "HL7 / FHIR integrations with existing health systems"
+            },
+            {
+              "type": "list_item",
+              "text": "Analytics dashboards & automated compliance reporting"
+            }
+          ]
+        },
+        {
+          "heading": "Which technologies does ZuiGO use for Healthcare Software?",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "ZuiGO builds healthcare software on the stack below. We choose technologies per project, so this is a representative set rather than a fixed requirement."
+            },
+            {
+              "type": "list_item",
+              "text": "React"
+            },
+            {
+              "type": "list_item",
+              "text": "Next.js"
+            },
+            {
+              "type": "list_item",
+              "text": "Node.js"
+            },
+            {
+              "type": "list_item",
+              "text": "Python"
+            },
+            {
+              "type": "list_item",
+              "text": "FHIR / HL7"
+            },
+            {
+              "type": "list_item",
+              "text": "PostgreSQL"
+            },
+            {
+              "type": "list_item",
+              "text": "AWS"
+            },
+            {
+              "type": "list_item",
+              "text": "Docker"
+            }
+          ]
+        },
+        {
+          "heading": "What Healthcare Software projects does ZuiGO build?",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "These are representative healthcare software projects ZuiGO builds — illustrative of typical scope and approach, not a client list."
+            },
+            {
+              "type": "subheading",
+              "text": "Patient portal + telehealth"
+            },
+            {
+              "type": "paragraph",
+              "text": "A unified portal for appointments, records, and secure video visits, integrated with an existing EHR over FHIR."
+            },
+            {
+              "type": "subheading",
+              "text": "Clinical analytics platform"
+            },
+            {
+              "type": "paragraph",
+              "text": "A reporting layer that turns fragmented clinical data into dashboards for outcomes, utilization, and compliance."
+            },
+            {
+              "type": "subheading",
+              "text": "Remote patient monitoring"
+            },
+            {
+              "type": "paragraph",
+              "text": "Device data ingestion with alerting and care-team workflows for chronic-condition management."
+            }
+          ]
+        },
+        {
+          "heading": "Talk to us about your EHR integration",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Bring the system you already run — the EHR, the portal, the device feed — and we will tell you what integrating with it actually takes, before anyone signs anything."
+            },
+            {
+              "type": "link",
+              "text": "Book a Call",
+              "href": "/book"
+            },
+            {
+              "type": "link",
+              "text": "Send a Message",
+              "href": "/contact"
+            }
+          ]
+        }
+      ],
+      "content_sha256": "0bff37fb8c38fcc9fbd6aa9a887ed8cab0272b77bd82fe39bbd0b7e5a8877ef0"
+    }
+  ]
+}
