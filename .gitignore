@@ -8,3 +8,4 @@ data/.rag-cache/
 .venv/
 __pycache__/
 *.bak
+*.old*

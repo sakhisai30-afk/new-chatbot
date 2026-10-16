@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "source": "https://zuigo.ai/contact",
+  "fetched_at": "2026-10-15T00:00:00+00:00",
+  "records": [
+    {
+      "kind": "project_fact",
+      "id": "pricing-info",
+      "label": "Pricing and project cost",
+      "name": "Pricing and project cost",
+      "page_title": "How much does a project cost? Pricing and budget",
+      "introduction": "ZuiGO does not publish project prices or a price list on its website, so the cost of a project cannot be confirmed from the website. The Contact page has an optional budget-range field with choices such as Under $25,000, $25,000 – $50,000, $50,000 – $100,000, $100,000+ and Not sure yet. These are choices a visitor makes to describe their own budget; they are not ZuiGO's prices. To get a realistic scope and estimate, contact ZuiGO at hello@zuigo.ai or book a 30-minute call.",
+      "source": "https://zuigo.ai/contact",
+      "provenance": "Project-provided guidance based on the saved Contact page; the website does not publish prices.",
+      "sections": []
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "source": "https://zuigo.ai/services",
+  "fetched_at": "2026-10-15T00:00:00+00:00",
+  "records": [
+    {
+      "kind": "project_fact",
+      "id": "technologies-overview",
+      "label": "Technologies by service",
+      "name": "Technologies by service",
+      "page_title": "Which technologies does ZuiGO use?",
+      "introduction": "ZuiGO's service pages list representative technology stacks, chosen per project rather than fixed. Custom Software: React, Next.js, React Native, Node.js, TypeScript, PostgreSQL, Docker, AWS. AI & Machine Learning: Python, PyTorch, Claude / OpenAI APIs, LangChain, Vector DBs, FastAPI, MLflow, AWS / GCP. Cloud & DevOps: AWS, Azure, GCP, Terraform, Docker, Kubernetes, GitHub Actions, Grafana / Prometheus. Healthcare: React, Next.js, Node.js, Python, FHIR / HL7, PostgreSQL, AWS, Docker. Fintech: TypeScript, Node.js, Go, PostgreSQL, Redis, Stripe / payment APIs, Kafka, AWS.",
+      "source": "https://zuigo.ai/services",
+      "provenance": "Compiled from the technology lists on the five zuigo.ai service-page snapshots; not a separate page on the website.",
+      "sections": []
+    }
+  ]
+}
