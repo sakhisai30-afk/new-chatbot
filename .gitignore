@@ -9,3 +9,4 @@ data/.rag-cache/
 __pycache__/
 *.bak
 *.old*
+server/rag-chat.backup.mjs

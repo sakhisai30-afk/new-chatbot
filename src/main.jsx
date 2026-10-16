@@ -41,10 +41,44 @@ const LINKS = {
   viewOnGoogleMaps: 'https://www.google.com/maps/search/?api=1&query=Runwal%20Platinum%2C%20NDA%20Pashan%20Road%2C%20Ram%20Nagar%2C%20Bavdhan%2C%20Pune%2C%20Maharashtra%20411021'
 }
 
+const destinationKey = (url) => {
+  try {
+    const destination = new URL(url)
+    destination.hash = ''
+    destination.pathname = destination.pathname.replace(/\/+$/, '') || '/'
+    return destination.href
+  } catch {
+    return url
+  }
+}
+
+const messageSources = (message) => {
+  const actionDestinations = new Set((message.buttons || []).map(button => LINKS[button]).filter(Boolean).map(destinationKey))
+  const seenDestinations = new Set()
+  const sources = message.sources?.length ? message.sources : (message.source ? [{ url: message.source }] : [])
+  return sources.filter(source => {
+    if (!source.url) return false
+    const destination = destinationKey(source.url)
+    if (actionDestinations.has(destination) || seenDestinations.has(destination)) return false
+    seenDestinations.add(destination)
+    return true
+  })
+}
+
 function createMessage(role, content, extra = {}) {
   // content: { tk, tp } = translation key (+ params) shown in the current language,
   //          { text }   = free text coming from the AI backend (already in the chosen language)
   return { role, ...content, timestamp: new Date(), ...extra }
+}
+
+function removeUrls(text) {
+  return text
+    .replace(/\[[^\]]*\]\(https?:\/\/[^)]*\)/gi, '')
+    .replace(/https?:\/\/[^\s<>"']+/gi, url => url.match(/[.!?,;:]+$/)?.[0] || '')
+    .replace(/\(\s*\)|\[\s*\]/g, '')
+    .replace(/[ \t]+([,.;!?])/g, '$1')
+    .replace(/[ \t]{2,}/g, ' ')
+    .trim()
 }
 
 const startMessage = () => createMessage('bot', { tk: 'flows.start.message' }, { buttons: START_BUTTONS })
@@ -59,24 +93,14 @@ function App() {
   const [isOpen, setIsOpen] = useState(false)
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [isTyping, setIsTyping] = useState(false)
-  const [isRecording, setIsRecording] = useState(false)
   const [copyStatus, setCopyStatus] = useState('')
   const messagesRef = useRef(null)
-  const recorderRef = useRef(null)
-  const streamRef = useRef(null)
-  const audioUrlsRef = useRef([])
 
   useEffect(() => { document.documentElement.lang = language }, [language])
 
   useEffect(() => {
     if (messagesRef.current) messagesRef.current.scrollTop = messagesRef.current.scrollHeight
   }, [messages, isTyping])
-
-  useEffect(() => () => {
-    if (recorderRef.current?.state === 'recording') recorderRef.current.stop()
-    streamRef.current?.getTracks().forEach(track => track.stop())
-    audioUrlsRef.current.forEach(url => URL.revokeObjectURL(url))
-  }, [])
 
   const changeLanguage = (code) => {
     saveLanguage(code)
@@ -163,8 +187,9 @@ function App() {
       const data = await response.json()
       if (!response.ok) throw new Error('chat-failed')
       const sources = Array.isArray(data.sources) ? data.sources : []
-      setMessages(m => [...m, createMessage('bot', data.answer ? { text: data.answer } : { tk: 'messages.noConfirm' }, {
-        sources, source: sources[0]?.url, buttons: followUp
+      const answer = typeof data.answer === 'string' ? removeUrls(data.answer) : ''
+      setMessages(m => [...m, createMessage('bot', answer ? { text: answer } : { tk: 'messages.noConfirm' }, {
+        sources, source: sources[0]?.url, buttons: [...followUp, 'viewOnGoogleMaps']
       })])
     } catch (error) {
       // Server error texts are English; always show the translated message instead.
@@ -188,44 +213,7 @@ function App() {
     window.setTimeout(() => setCopyStatus(''), 2200)
   }
 
-  const toggleVoiceNote = async () => {
-    if (recorderRef.current?.state === 'recording') {
-      recorderRef.current.stop()
-      return
-    }
-    if (!navigator.mediaDevices?.getUserMedia || typeof MediaRecorder === 'undefined') {
-      setMessages(m => [...m, createMessage('bot', { tk: 'messages.voiceRecordingUnsupported' })])
-      return
-    }
-    try {
-      const stream = await navigator.mediaDevices.getUserMedia({ audio: true })
-      streamRef.current = stream
-      const recorder = new MediaRecorder(stream)
-      const chunks = []
-      recorder.ondataavailable = event => {
-        if (event.data.size > 0) chunks.push(event.data)
-      }
-      recorder.onstop = () => {
-        const audioUrl = URL.createObjectURL(new Blob(chunks, { type: recorder.mimeType || 'audio/webm' }))
-        audioUrlsRef.current.push(audioUrl)
-        setMessages(m => [...m, createMessage('user', { tk: 'controls.voiceNote' }, { audioUrl })])
-        stream.getTracks().forEach(track => track.stop())
-        streamRef.current = null
-        recorderRef.current = null
-        setIsRecording(false)
-      }
-      recorderRef.current = recorder
-      recorder.start()
-      setIsRecording(true)
-    } catch (error) {
-      console.error('Unable to start voice recording:', error)
-      setMessages(m => [...m, createMessage('bot', { tk: 'messages.microphoneUnavailable' })])
-    }
-  }
-
   const clearMessages = () => {
-    audioUrlsRef.current.forEach(url => URL.revokeObjectURL(url))
-    audioUrlsRef.current = []
     setMessages([startMessage()])
     setInput('')
     setIsMenuOpen(false)
@@ -291,14 +279,13 @@ function App() {
                   ? <>{m.promptLeadKey && <>{t(m.promptLeadKey)}<br /><br /></>}<span className="prompt-question">{messageText(m)}</span></>
                   : messageText(m)}
               </div>
-              {m.audioUrl && <audio className="voice-playback" controls src={m.audioUrl}>{t('controls.voicePlaybackUnsupported')}</audio>}
               <div className="message-meta">
                 <time dateTime={m.timestamp.toISOString()}>{m.timestamp.toLocaleString(language, { dateStyle: 'short', timeStyle: 'short' })}</time>
                 <button type="button" className="copy-button" aria-label={t('controls.copyMessageAriaLabel', { number: i + 1 })} title={t('controls.copyMessageTitle')} onClick={() => copyMessage(m, i)}>
                   <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="12" height="12" rx="2" /><path d="M16 8V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h3" /></svg>
                 </button>
               </div>
-              {(m.sources?.length ? m.sources : (m.source ? [{ url: m.source }] : [])).map((src, sourceIndex) => <button key={`${src.url}-${sourceIndex}`} className="source" onClick={() => openPage(src.url)}>{t('controls.sourcePage')}</button>)}
+              {messageSources(m).map((src, sourceIndex) => <button key={`${src.url}-${sourceIndex}`} className="source" onClick={() => openPage(src.url)}>{t('controls.sourcePage')}</button>)}
               {m.buttons?.length > 0 && <div className="chips">{m.buttons.map(b => <button className={b === 'viewOnGoogleMaps' ? 'map-button' : undefined} disabled={busy} key={b} onClick={() => LINKS[b] ? openPage(LINKS[b]) : handleChoice(b, m)}>{b === 'viewOnGoogleMaps' && <svg className="map-pin" viewBox="0 0 24 24" aria-hidden="true"><path fill="#ea4335" d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7Z" /><circle cx="12" cy="9" r="2.5" fill="#fff" /></svg>}{buttonLabel(b)}</button>)}</div>}
             </div>
           </div>)}
@@ -308,14 +295,10 @@ function App() {
         </div>
         <form className="composer" onSubmit={handleSubmit}>
           <input autoFocus value={input} onChange={e => setInput(e.target.value)} placeholder={t('controls.inputPlaceholder')} aria-label={t('controls.inputAriaLabel')} />
-          <button className={`composer-tool voice-button${isRecording ? ' is-recording' : ''}`} type="button" aria-label={isRecording ? t('controls.stopVoiceNote') : t('controls.recordVoiceNote')} title={isRecording ? t('controls.stopRecording') : t('controls.recordVoiceNote')} onClick={toggleVoiceNote}>
-            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="3" width="6" height="12" rx="3" /><path d="M5 11a7 7 0 0 0 14 0m-7 7v3m-4 0h8" /></svg>
-          </button>
           <button className="send-button" type="submit" aria-label={t('controls.sendMessage')} title={t('controls.sendMessage')} disabled={busy || !input.trim()}>
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 3-7.2 18-3.9-7.9L2 9.2 21 3Zm-11.1 10.1L21 3" /></svg>
           </button>
         </form>
-        <div className="notice">{t('controls.notice')}</div>
         <div className="copy-status" role="status" aria-live="polite">{copyStatus}</div>
       </section>}
       <section className="security-card">

@@ -357,7 +357,6 @@ body {
 
 .copy-button svg,
 .restart-button svg,
-.composer-tool svg,
 .send-button svg {
   width: 16px;
   height: 16px;
@@ -366,13 +365,6 @@ body {
   stroke-width: 1.8;
   stroke-linecap: round;
   stroke-linejoin: round;
-}
-
-.voice-playback {
-  display: block;
-  width: min(250px, 100%);
-  height: 34px;
-  margin-top: 9px;
 }
 
 .row {
@@ -556,27 +548,6 @@ body {
   border-color: #5049df;
 }
 
-.composer .composer-tool {
-  width: 31px;
-  height: 35px;
-  border-color: transparent;
-  background: transparent;
-  color: #7f8aa0;
-}
-
-.composer .composer-tool:hover {
-  border-color: #e4e7f1;
-  background: #f0f2fa;
-  color: #514bd1;
-}
-
-.composer .voice-button.is-recording {
-  border-color: #e45470;
-  background: #fff0f2;
-  color: #d93f5d;
-  animation: recording-pulse 1.2s infinite;
-}
-
 .composer .send-button {
   border-radius: 11px;
 }
@@ -584,19 +555,6 @@ body {
 .composer .send-button:disabled {
   cursor: not-allowed;
   opacity: .48;
-}
-
-@keyframes recording-pulse {
-  50% {
-    box-shadow: 0 0 0 4px rgba(228, 84, 112, .14);
-  }
-}
-
-.notice {
-  padding: 0 14px 11px;
-  color: #8792a5;
-  font-size: 10px;
-  line-height: 1.5;
 }
 
 .chat-launcher {
