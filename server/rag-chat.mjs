@@ -2,6 +2,7 @@ import fs from 'node:fs/promises'
 import path from 'node:path'
 import { createHash } from 'node:crypto'
 import { fileURLToPath } from 'node:url'
+import { checkInput, checkOutput, OFF_TOPIC_REPLY, UNSURE_REPLY } from './guardrails.mjs'
 
 const HERE = path.dirname(fileURLToPath(import.meta.url))
 const ROOT = path.resolve(HERE, '..')
@@ -281,14 +282,17 @@ async function answerWithGemini({ message, history, language }, provider = 'gemi
   const { chunks } = await getIndex()
   // A very short follow-up ("tell me which 5?") is searched together with the previous user question.
   const lastUser = [...history].reverse().find(item => item.role === 'user' && item.text)
-  const searchText = lastUser && message.trim().split(/\s+/).length <= 6 ? `${lastUser.text} ${message}` : message
+  const isFollowUp = /\b(it|its|that|this|those|these|them|they|more|which|one|ones|also|else|again|same)\b/i.test(message)
+  const searchText = lastUser && isFollowUp && message.trim().split(/\s+/).length <= 6 ? `${lastUser.text} ${message}` : message
   const queryEmbedding = await embedText(null, searchText)
   const ranked = chunks.map(chunk => ({ chunk, score: cosine(queryEmbedding, chunk.embedding) }))
     .sort((a, b) => b.score - a.score)
   const best = ranked[0]?.score ?? 0
+  console.log('[Guardrail] best similarity:', best.toFixed(3), '|', message.slice(0, 40))
+  if (best < Number(process.env.RAG_OFFTOPIC_SIMILARITY || 0.35)) return { answer: OFF_TOPIC_REPLY, sources: [] }
   const matches = ranked.slice(0, TOP_K).filter(item => item.score >= MIN_SIMILARITY && item.score >= best - 0.12)
   if (!matches.length) {
-    return { answer: "I couldn't find enough verified ZuiGO website information to answer that confidently. Please contact ZuiGO through https://zuigo.ai/contact.", sources: [] }
+    return { answer: UNSURE_REPLY, sources: [] }
   }
 
   const allowedChunks = matches.map(({ chunk, score }) => ({
@@ -386,6 +390,8 @@ async function answerWithGemini({ message, history, language }, provider = 'gemi
     .replace(/[ \t]{2,}/g, ' ')
     .trim()
   if (!Array.isArray(parsed.used_ids)) parsed.used_ids = []
+  const safe = checkOutput(parsed.answer, allowedChunks.map(c => c.text).join(' '))
+  if (!safe.ok) return { answer: safe.reply, sources: [] }
 
   const retrievedIds = new Set(allowedChunks.map(chunk => chunk.id))
   let validIds = [...new Set(parsed.used_ids.filter(id => typeof id === 'string' && retrievedIds.has(id)))]
@@ -474,6 +480,8 @@ async function answerGreeting({ message, language }) {
 }
 
 export async function answerWithRag(args) {
+  const blocked = checkInput(args.message)
+  if (blocked) return { answer: blocked, sources: [] }
   if (ANSWER_MODE === 'ollama') {
     if (isGreeting(args.message)) {
       try { return await answerGreeting(args) } catch (error) {
