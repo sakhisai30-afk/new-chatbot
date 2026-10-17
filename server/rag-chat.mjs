@@ -2,7 +2,7 @@ import fs from 'node:fs/promises'
 import path from 'node:path'
 import { createHash } from 'node:crypto'
 import { fileURLToPath } from 'node:url'
-import { checkInput, checkOutput, OFF_TOPIC_REPLY, UNSURE_REPLY } from './guardrails.mjs'
+import { checkInput, checkOutput, OFF_TOPIC_REPLY, UNSURE_REPLY, isAddressQuestion, ADDRESS_REPLY, isFounderQuestion, FOUNDER_REPLY, isUnconfirmedQuestion } from './guardrails.mjs'
 
 const HERE = path.dirname(fileURLToPath(import.meta.url))
 const ROOT = path.resolve(HERE, '..')
@@ -482,6 +482,9 @@ async function answerGreeting({ message, language }) {
 export async function answerWithRag(args) {
   const blocked = checkInput(args.message)
   if (blocked) return { answer: blocked, sources: [] }
+  if (isFounderQuestion(args.message)) return { answer: FOUNDER_REPLY, sources: [] }
+  if (isUnconfirmedQuestion(args.message)) return { answer: UNSURE_REPLY, sources: [] }
+  if (isAddressQuestion(args.message)) return { answer: ADDRESS_REPLY, sources: [{ id: 'office-address', title: 'Contact', url: 'https://zuigo.ai/contact' }] }
   if (ANSWER_MODE === 'ollama') {
     if (isGreeting(args.message)) {
       try { return await answerGreeting(args) } catch (error) {
